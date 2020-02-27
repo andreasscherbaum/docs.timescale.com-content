@@ -6,6 +6,9 @@
 > - [Why build another time-series database?](#why-build)
 > - [Why should I use TimescaleDB?](#why-use)
 > - [What can I use TimescaleDB for?](#what-for)
+> - [Why should I choose Timescale Cloud](#why-cloud)
+> - [Which regions and cloud providers are supported by Timescale Cloud?](#which-cloud-regions)
+> - [What is the difference between Timescale, TimescaleDB, and Timescale Cloud?](#what-does-timescale-mean)
 > - [Do you really support "all of SQL"](#sql-support)
 > - [Why SQL?](#why-sql)
 > - [What SQL features are supported (JOIN)?](#sql-features)
@@ -77,6 +80,32 @@ including manufacturing, energy, utilities, mining, oil and gas, finance, ad tec
 and more. Use cases include complex monitoring and analytics; predicting the performance and
 behavior of applications, models, consumers and connected machines; powering operational
 analytical workflows and dashboards; for QA and performance testing. [[Top]](#top)
+
+### **Why should I choose Timescale Cloud?** [](why-cloud)
+If you want all the benefits of TimescaleDB without the hassle of installing,
+maintaining, and administering the database itself, then Timescale Cloud is the
+best choice for you.
+
+Timescale Cloud manages all of the operational elements of your database so you can 
+focus on building your applications and not making sure the infrastructure works. We 
+ensure you have a secure, high availability environment where we manage the infrastructure 
+all the way down to setting up replications, point-in-time recovery, read replicas, 
+backups, and more.
+
+### **Which cloud providers and regions are supported by Timescale Cloud?** [](which-cloud-regions)
+Timescale Cloud is available in the following Clouds and Regions:
+
+* **Amazon Web Services (AWS)**: N. Virginia, Oregon, Ohio, N. California, São Paulo, 
+Stockholm, Ireland, London, Paris, Frankfurt, Canada, Sydney, Singapore, Tokyo, 
+Mumbai, Seoul
+* **Microsoft Azure (Azure)**: East US, East US 2, West Europe, Southeast Asia
+* **Google Cloud Platform (GCP)**: Northern Virginia, Los Angeles, South Carolina, 
+Iowa, Oregon, São Paulo, Zürich, London, Frankfurt, Finland, Belgium, Netherlands, 
+Montréal, Sydney, Taiwan, Mumbai, Hong Kong, Tokyo, Singapore
+
+### **What is the difference between Timescale, TimescaleDB, and Timescale Cloud?** [](what-does-timescale-mean)
+Timescale is our company. We build a category-defining time-series database called TimescaleDB. 
+We host and manage TimescaleDB on behalf of our customers via a product we call Timescale Cloud.
 
 ### **Do you really support “all of SQL”?** [](sql-support)
 Yes, all of SQL, including: secondary indexes, JOINs, window functions. In fact,
